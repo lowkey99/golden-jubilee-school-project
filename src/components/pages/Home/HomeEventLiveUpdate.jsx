@@ -4,8 +4,8 @@ const HomeEventLiveUpdate = () => {
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
       <div className="pb-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
-        <div className="grid grid-cols-3 gap-10">
-          <div className="border rounded-2xl shadow-md bg-base-300">
+        <div className="sm:grid grid-cols-3 gap-10">
+          <div className="border rounded-2xl shadow-md bg-base-300 mb-10 sm:mb-0">
             <div>
               <h1 className="text-3xl text-center py-5 font-bold text-orange-500 ">
                 Event & Live Update

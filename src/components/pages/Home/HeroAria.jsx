@@ -33,7 +33,7 @@ const HeroAria = () => {
           modules={[Autoplay, Pagination, Navigation]}
           className="relative sm:h-[780px]"
         >
-          <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-[44px] text-white drop-shadow-lg shadow-white font-bold z-50">
+          <h1 className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-2xl sm:text-[44px] text-white drop-shadow-lg shadow-white font-semibold sm:font-bold z-50">
             WELCOME TO OUR SCHOOL
           </h1>
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-20"></div>

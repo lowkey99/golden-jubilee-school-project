@@ -2,7 +2,7 @@ const HomeAducationlevel = () => {
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
       <div className="pb-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
-        <div className="grid grid-cols-3 gap-10">
+        <div className="sm:grid grid-cols-3 gap-10">
           <div className="flex justify-center items-center gap-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ const HomeAducationlevel = () => {
               <p>We Make you dream true</p>
             </div>
           </div>
-          <div className="flex justify-center items-center gap-8">
+          <div className="flex justify-start items-center gap-8">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

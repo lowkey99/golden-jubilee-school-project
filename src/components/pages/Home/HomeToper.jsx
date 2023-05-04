@@ -34,7 +34,7 @@ const HomeToper = () => {
           <h1 className="text-4xl font-bold text-center mt-3">
             XII Toppers (2021 - 2022)
           </h1>
-          <div className="grid grid-cols-3 gap-32 mt-10">
+          <div className="sm:grid grid-cols-3 gap-32 mt-10">
             {toperDetails?.map((detail) => (
               <div
                 key={detail.id}

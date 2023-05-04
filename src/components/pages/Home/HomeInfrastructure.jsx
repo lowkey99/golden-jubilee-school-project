@@ -66,7 +66,7 @@ const HomeInfrastructure = () => {
             <h1 className="text-4xl font-bold text-center text-orange-500">
               Infrastructure & Facilities
             </h1>
-            <div className="grid grid-cols-3 gap-10 mt-10">
+            <div className="sm:grid grid-cols-3 gap-10 mt-10">
               {cardDetails?.map((detail) => (
                 <div key={detail.id} className="card bg-base-100 hover:shadow hover:bg-[#f7f7f7]">
                   <figure className="px-10 pt-10 ">
