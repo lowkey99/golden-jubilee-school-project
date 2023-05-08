@@ -1,22 +1,7 @@
-import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { CiLight, CiDark } from "react-icons/ci";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = () => {
-  const [isDarkMode, setIsDarkMode] = useState(false);
-
-
-
-  useEffect(() => {
-    if (isDarkMode) {
-      document.body.classList.add("dark");
-    } else {
-      document.body.classList.remove("dark");
-    }
-  }, [isDarkMode]);
-
-
-
   let activeStyle = {
     background: "#fff0",
     color: "#444bcb",
@@ -44,8 +29,8 @@ const Navbar = () => {
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -53,85 +38,103 @@ const Navbar = () => {
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#ssbvgjs"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               SSBVGJS
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#founder"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               FOUNDER
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#history"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               HISTORY OF SCHOOL
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#vision"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               VISION AND MISSION
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#chairman"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               CHAIRMAN ‘S DESK
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#correspondent"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               CORRESPONDENT’S DESK
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#principal"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               PRINCIPAL’S DESK
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#board"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               BOARD OF TRUSTEES
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              
+              to="/about/#committee"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               COMMITTEE
-            </NavLink>
+            </HashLink>
           </li>
         </ul>
       </li>
@@ -145,8 +148,8 @@ const Navbar = () => {
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -192,8 +195,8 @@ const Navbar = () => {
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -257,8 +260,8 @@ const Navbar = () => {
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -304,8 +307,8 @@ const Navbar = () => {
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -333,8 +336,8 @@ const Navbar = () => {
           <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="20"
+            height="20"
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
@@ -444,22 +447,22 @@ const Navbar = () => {
   );
 
   return (
-    <div className="shadow">
-      <div className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
-        <div className="navbar bg-base-100">
+    <div className="bg-[#fff] text shadow ">
+      <div className="px-4 sm:py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+        <div className="navbar ">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
-               Menu
-               <svg
-            className="fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-          >
-            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-          </svg>
+                Menu
+                <svg
+                  className="fill-current"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                >
+                  <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+                </svg>
               </label>
               <ul
                 tabIndex={0}
@@ -471,7 +474,9 @@ const Navbar = () => {
             <a className="btn btn-ghost normal-case text-xl"></a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-sm z-50">{menuItem}</ul>
+            <ul className="menu menu-horizontal px-1 text-sm z-50">
+              {menuItem}
+            </ul>
           </div>
           <div className="navbar-end"></div>
         </div>
