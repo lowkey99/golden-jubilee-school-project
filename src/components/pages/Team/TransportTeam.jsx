@@ -1,4 +1,4 @@
-import VEDASUBIRA from "../../../assets/Late.Sri.K.M.SUBRAM-NIAM.jpg";
+import VEDASUBIRA from "../../../assets/demo.jpg";
 
 const TransportTeam = () => {
   const transportData = [
@@ -85,7 +85,10 @@ const TransportTeam = () => {
   const categories = [...new Set(transportData.map((data) => data.category))];
 
   return (
-    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
+    <div
+      id="transport-team"
+      className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10"
+    >
       <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
           <span className="inline-block mb-1 sm:mb-4">Transport Team</span>
@@ -108,7 +111,10 @@ const TransportTeam = () => {
                         <h4 className="text-white font-semibold text-base mb-1">
                           {data.name}
                         </h4>
-                        <p className="text-sm tracking-wide text-white">
+                        <p
+                          id="security-team"
+                          className="text-sm tracking-wide text-white"
+                        >
                           {data.qualification}
                         </p>
                       </div>

@@ -1,24 +1,26 @@
-import toperIMG from "../../../assets/header-right-side-photos/Late.Smt.SARADASUBRAMANIAM.png";
+import toperIMG1 from "../../../assets/1.png";
+import toperIMG2 from "../../../assets/Ellipse5.png";
+import toperIMG3 from "../../../assets/Ellipse5(2).png";
 
 const HomeToper = () => {
   const toperDetails = [
     {
       id: "101",
-      img: { toperIMG },
+      img:  toperIMG2 ,
       title: "M.Mothith",
       color: "#FFF7D4",
       rank: "565/600",
     },
     {
       id: "102",
-      img: { toperIMG },
+      img:  toperIMG1 ,
       title: "Surikutchi sandhya",
       color: "#FFACAC",
       rank: "565/600",
     },
     {
       id: "103",
-      img: { toperIMG },
+      img:  toperIMG3 ,
       title: "M.Mothith",
       color: "#DDFFBB",
       rank: "565/600",
@@ -38,22 +40,22 @@ const HomeToper = () => {
             {toperDetails?.map((detail) => (
               <div
                 key={detail.id}
-                className={`card hover:shadow bg-[${detail.color}] hover:bg-[#f7f7f7] border`}
+                className={`card hover:shadow bg-[${detail.color}] hover:bg-[#f7f7f7] border `}
               >
-                <figure className="px-10 pt-10 ">
+                <figure className="px-5 pt-5 ">
                   <div className="pt-5 rounded-md">
                     <img
-                      className="w-32 h-auto rounded-md"
-                      src={toperIMG}
+                      className=" rounded-md"
+                      src={detail.img}
                       alt=""
                     />
                   </div>
                 </figure>
-                <div className="card-body items-center text-center">
+                <div className="card-body items-center text-center justify-between pb-2">
                   <h2 className="card-title text-2xl mb-2">{detail.title}</h2>
                   <button className="bg-red-600 shadow-md px-5 py-3 rounded-md text-white text-3xl font-semibold hover:bg-red-800 ">
-              {detail.rank}
-            </button>
+                    {detail.rank}
+                  </button>
                 </div>
               </div>
             ))}

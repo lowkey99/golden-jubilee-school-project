@@ -1,4 +1,4 @@
-import VEDASUBIRA from "../../../assets/Akbarsha.png";
+import VEDASUBIRA from "../../../assets/demo.jpg";
 
 const AcademicsTeam = () => {
   const academicsData = [
@@ -253,7 +253,7 @@ const AcademicsTeam = () => {
   const categories = [...new Set(academicsData.map((data) => data.category))];
 
   return (
-    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
+    <div id="academic-team" className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
       <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
           <span className="inline-block mb-1 sm:mb-4">ACADEMICS TEAM</span>

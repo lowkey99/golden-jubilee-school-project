@@ -40,10 +40,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#ssbvgjs"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               SSBVGJS
             </HashLink>
@@ -51,10 +49,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#founder"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               FOUNDER
             </HashLink>
@@ -62,10 +58,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#history"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               HISTORY OF SCHOOL
             </HashLink>
@@ -73,10 +67,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#vision"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               VISION AND MISSION
             </HashLink>
@@ -84,10 +76,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#chairman"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               CHAIRMAN ‘S DESK
             </HashLink>
@@ -95,10 +85,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#correspondent"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               CORRESPONDENT’S DESK
             </HashLink>
@@ -106,10 +94,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#principal"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               PRINCIPAL’S DESK
             </HashLink>
@@ -117,10 +103,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#board"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               BOARD OF TRUSTEES
             </HashLink>
@@ -128,10 +112,8 @@ const Navbar = () => {
           <li>
             <HashLink
               smooth
-              
               to="/about/#committee"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              
             >
               COMMITTEE
             </HashLink>
@@ -269,31 +251,31 @@ const Navbar = () => {
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/campus/#class-room"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               CLASS ROOMS
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/campus/#library"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               LIBRARY
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/campus/#laboratory"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              
             >
               LABORATORY
-            </NavLink>
+            </HashLink>
           </li>
         </ul>
       </li>
@@ -345,77 +327,72 @@ const Navbar = () => {
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              smooth
+              to="/team/#leader"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               LEADERS
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/team/#academic-team"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               ACADEMICS TEAM
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/team/#co-team"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               CO-SCHOLOSTIC TEAM
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/team/#admin-team"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               ADMINISTRATIVE TEAM
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/team/#house-team"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               HOUSE- KEEPING TEAM
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/team/#transport-team"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               TRANSPORT TEAM
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/team/#security-team"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               SECURITY TEAM
-            </NavLink>
+            </HashLink>
           </li>
         </ul>
       </li>
       <li>
         <NavLink
           to="/mandatory-disclosure"
-          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm uppercase"
+          className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm uppercase text-[12px]"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
-          mandatory disclosure (cbse)
+          mandatory 
+          <br /> disclosure <br />(cbse)
         </NavLink>
       </li>
       <li>
@@ -436,20 +413,13 @@ const Navbar = () => {
           contact
         </NavLink>
       </li>
-
-      {/* <li className="flex justify-center items-center gap-2">
-
-        <button onClick={handleToggleClick}>
-          {isDarkMode ? <CiLight className="hover:fill-[#444bcb] w-5 h-5" /> : <CiDark className="hover:fill-[#444bcb] w-5 h-5" />}
-        </button>
-      </li> */}
     </>
   );
 
   return (
     <div className="bg-[#fff] text shadow ">
-      <div className="px-4 sm:py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
-        <div className="navbar ">
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+        <div className="navbar">
           <div className="navbar-start">
             <div className="dropdown">
               <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -474,7 +444,7 @@ const Navbar = () => {
             <a className="btn btn-ghost normal-case text-xl"></a>
           </div>
           <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 text-sm z-50">
+            <ul className="menu menu-horizontal px-1 text-[10px] sm:text-sm z-50">
               {menuItem}
             </ul>
           </div>

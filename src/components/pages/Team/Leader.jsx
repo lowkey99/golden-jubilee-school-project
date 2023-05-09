@@ -1,4 +1,4 @@
-import VEDASUBIRA from "../../../assets/A.VEDASUBIRA-ANIAM.png";
+import VEDASUBIRA from "../../../assets/demo.jpg";
 
 const Leader = () => {
   const leaderData = [
@@ -19,7 +19,7 @@ const Leader = () => {
     },
   ];
   return (
-    <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
+    <div id="leader" className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10">
       <div className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
         <div className="flex flex-col mb-6 lg:justify-between lg:flex-row md:mb-8">
           <h2 className="max-w-lg mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none md:mb-6 group">
