@@ -139,31 +139,28 @@ const Navbar = () => {
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/admission/#admission-procedure"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               ADMISSION PROCEDURE
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/admission/#age-criteria"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               AGE CRITERIA
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/admission/#fee-structure"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               FEE STRUCTURE
-            </NavLink>
+            </HashLink>
           </li>
         </ul>
       </li>
@@ -186,49 +183,49 @@ const Navbar = () => {
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
-            <NavLink
+            <HashLink
               to="/new"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               CURRICULUM
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
+            <HashLink
               to="/new"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               RULES AND REGULATION
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
+            <HashLink
               to="/new"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               CO-CURRICULAR ACTIVITES
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
+            <HashLink
               to="/new"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               ACHIEVEMENTS & AWARDS
-            </NavLink>
+            </HashLink>
           </li>
           <li>
-            <NavLink
+            <HashLink
               to="/new"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               CALENDAR
-            </NavLink>
+            </HashLink>
           </li>
         </ul>
       </li>

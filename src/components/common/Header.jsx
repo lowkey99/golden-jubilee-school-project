@@ -13,7 +13,7 @@ const Header = () => {
     <div className="bg-[#f7f7f7] shadow ">
       <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-5 sm:py-0">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-around">
-          <div className="sm:flex items-center justify-center sm:justify-between gap-2 order-2 lg:order-1 my-3 sm:my-0 hidden">
+          <div className="lg:flex items-center justify-center sm:justify-between gap-2 order-2 lg:order-1 my-3 lg:my-0 hidden">
             <div className="avatar">
               <div className="w-12 sm:w-20 rounded-full border-4 border-orange-600">
                 <img src={LeftImg1} className="" alt="" />
@@ -35,10 +35,10 @@ const Header = () => {
               </div>
             </div>
           </div>
-          <div className="sm:w-[40%] w-[100%] mx-0 order-3 lg:order-2 py-2">
+          <div className="lg:w-[40%] w-[100%] mx-0 order-3 lg:order-2 py-2">
             <img src={Logo} className="" alt="" />
           </div>
-          <div className="sm:flex items-center justify-center sm:justify-between gap-2  order-1 lg:order-3 hidden">
+          <div className="lg:flex items-center justify-center sm:justify-between gap-2  order-1 lg:order-3 hidden">
             <div className="avatar">
               <div className="w-12 sm:w-20 rounded-full border-4 border-orange-600">
                 <img src={LeftImg5} className="" alt="" />

@@ -1,7 +1,7 @@
 const Admission = () => {
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
-      <div className="py-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
+      <div id="admission-procedure" className="py-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
         <h1 className=" text-4xl font-bold mb-10">ADMISSION</h1>
         <div>
           <div className="grid sm:grid-cols-2 justify-center items-center gap-10">
@@ -65,7 +65,7 @@ const Admission = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center my-20">
+          <div id="age-criteria" className="flex flex-col items-center my-20">
             <h3 className="text-xl font-semibold mb-5">AGE CRIETERIA</h3>
             <table className="table table-zebra">
               {/* head */}
@@ -91,7 +91,7 @@ const Admission = () => {
               </tbody>
             </table>
           </div>
-          <div className="flex flex-col items-center my-20">
+          <div id="fee-structure" className="flex flex-col items-center my-20">
             <h3 className="text-xl font-semibold mb-5">FEE STRUCTURE</h3>
             <table className="table table-compact border">
               {/* head */}

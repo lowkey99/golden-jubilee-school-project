@@ -8,6 +8,7 @@ import Campus from "../pages/campus/Campus";
 import GalleryPhoto from "../pages/gallery/Gallery";
 import Contact from "../pages/contact/Contact";
 import Admission from "../pages/Admission/Admission";
+import Academics from "../pages/academics/Academics";
 
 export const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ export const router = createBrowserRouter([
       {
         path: "/admission",
         element: <Admission />,
+      },
+      {
+        path: "/academics",
+        element: <Academics />,
       },
       {
         path: "/campus",
