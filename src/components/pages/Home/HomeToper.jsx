@@ -28,7 +28,7 @@ const HomeToper = () => {
   ];
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
-      <div className="py-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
+      <div className="pt-10 pb-20 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
         <div>
           <h1 className="text-4xl font-bold text-center text-orange-500">
             Achievements

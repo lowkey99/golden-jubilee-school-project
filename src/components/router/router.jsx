@@ -6,6 +6,7 @@ import About from "../pages/about/About";
 import Team from "../pages/Team/Team";
 import Campus from "../pages/campus/Campus";
 import GalleryPhoto from "../pages/gallery/Gallery";
+import Contact from "../pages/contact/Contact";
 
 export const router = createBrowserRouter([
   {
@@ -23,21 +24,24 @@ export const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About/>,
+        element: <About />,
       },
       {
         path: "/team",
-        element: <Team/>,
+        element: <Team />,
       },
       {
         path: "/campus",
-        element: <Campus/>,
+        element: <Campus />,
       },
       {
         path: "/gallery",
-        element: <GalleryPhoto/>,
+        element: <GalleryPhoto />,
       },
-      
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
     ],
   },
 ]);
