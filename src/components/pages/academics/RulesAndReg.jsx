@@ -1,6 +1,6 @@
 const RulesAndReg = () => {
   return (
-    <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+    <div id="rules-and-regulation" className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 pb-10">
       <div className="grid max-w-2xl mx-auto">
         <h1 className="text-center mb-5 text-2xl font-semibold">Rules and Regulation</h1>
         <div className="flex">
