@@ -9,6 +9,7 @@ import GalleryPhoto from "../pages/gallery/Gallery";
 import Contact from "../pages/contact/Contact";
 import Admission from "../pages/Admission/Admission";
 import Academics from "../pages/academics/Academics";
+import CBSE from "../pages/cbse/CBSE";
 
 export const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ export const router = createBrowserRouter([
       {
         path: "/academics",
         element: <Academics />,
+      },
+      {
+        path: "/mandatory-disclosure",
+        element: <CBSE />,
       },
       {
         path: "/campus",
