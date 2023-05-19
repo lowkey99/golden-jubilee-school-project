@@ -26,7 +26,7 @@ const Navbar = () => {
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           ABOUT-US
-          {/* <svg
+          <svg
             className="fill-current"
             xmlns="http://www.w3.org/2000/svg"
             width="20"
@@ -34,9 +34,9 @@ const Navbar = () => {
             viewBox="0 0 24 24"
           >
             <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-          </svg> */}
+          </svg>
         </NavLink>
-        {/* <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
+        <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
             <HashLink
               smooth
@@ -118,7 +118,7 @@ const Navbar = () => {
               COMMITTEE
             </HashLink>
           </li>
-        </ul> */}
+        </ul>
       </li>
       <li tabIndex={0}>
         <NavLink
@@ -127,9 +127,42 @@ const Navbar = () => {
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           campus
-          
+          <svg
+            className="fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
         </NavLink>
-       
+        <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
+          <li>
+            <HashLink
+              to="/campus/#class-room"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              CLASS ROOMS
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/campus/#library"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              LIBRARY
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/campus/#laboratory"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              LABORATORY
+            </HashLink>
+          </li>
+        </ul>
       </li>
       <li tabIndex={0}>
         <NavLink
@@ -138,8 +171,27 @@ const Navbar = () => {
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           facility
+          <svg
+            className="fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
         </NavLink>
-        
+        <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
+          <li>
+            <NavLink
+              to="/new"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+            >
+              TRANSPORT
+            </NavLink>
+          </li>
+        </ul>
       </li>
       <li tabIndex={0}>
         <NavLink
@@ -176,10 +228,60 @@ const Navbar = () => {
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           academics
+          <svg
+            className="fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
         </NavLink>
+        <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
+          <li>
+            <HashLink
+              to="/academics/#curriculum"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              CURRICULUM
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/academics/#rules-and-regulation"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              RULES AND REGULATION
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/academics/#co-curriculum-activities"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              CO-CURRICULAR ACTIVITES
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/new"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              ACHIEVEMENTS & AWARDS
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/new"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              CALENDAR
+            </HashLink>
+          </li>
+        </ul>
       </li>
-     
-      
+
       <li tabIndex={0}>
         <NavLink
           to="/team"
@@ -187,8 +289,75 @@ const Navbar = () => {
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
           team
+          <svg
+            className="fill-current"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+          >
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+          </svg>
         </NavLink>
-        
+        <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
+          <li>
+            <HashLink
+              smooth
+              to="/team/#leader"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              LEADERS
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/team/#academic-team"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              ACADEMICS TEAM
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/team/#co-team"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              CO-SCHOLOSTIC TEAM
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/team/#admin-team"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              ADMINISTRATIVE TEAM
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/team/#house-team"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              HOUSE- KEEPING TEAM
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/team/#transport-team"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              TRANSPORT TEAM
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/team/#security-team"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              SECURITY TEAM
+            </HashLink>
+          </li>
+        </ul>
       </li>
       <li>
         <NavLink

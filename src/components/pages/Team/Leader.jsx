@@ -27,25 +27,19 @@ const Leader = () => {
             <div className="h-1 ml-auto duration-300 origin-left transform bg-deep-purple-accent-400 scale-x-30 group-hover:scale-x-100" />
           </h2>
         </div>
-        <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
+        <div className="">
           {leaderData.map((data) => (
             <a key={data.id} href="/" aria-label="View Item">
-              <h4 className="mb-6 text-xl font-bold">{data.position}</h4>
-              <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                <img
-                  className="object-cover w-full h-56 md:h-64 xl:h-80"
-                  src={data.img}
-                  alt=""
-                />
-                <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
-                  <h4 className="text-white font-bold text-lg mb-1">
+              <h4 className="mb-3 text-xl font-bold text-blue-900">{data.position}</h4>
+              
+                  <h4 className="text-black font-bold text-lg mb-1 ">
                     {data.name}
                   </h4>
-                  <p className="text-sm tracking-wide text-white">
+                  <p className="text-sm tracking-wide text-black pb-5">
                     {data.qualification}
                   </p>
-                </div>
-              </div>
+
+
             </a>
           ))}
         </div>

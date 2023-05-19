@@ -66,26 +66,18 @@ const AdminRole = () => {
         </h2>
         {categories.map((category) => (
           <div key={category}>
-            <h3 className="mb-3 font-bold text-lg">{category}</h3>
+            <h3 className="mb-3 font-bold text-lg text-blue-900">{category}</h3>
             <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
               {AdminRoleData.filter((data) => data.category === category).map(
                 (data) => (
                   <a key={data.id} href="/" aria-label="View Item">
-                    <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
-                      <img
-                        className="object-cover w-full h-56 md:h-64 xl:h-80"
-                        src={data.img}
-                        alt=""
-                      />
-                      <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
-                        <h4 className="text-white font-bold text-lg mb-1">
+                    
+                        <h4 className="text-black font-bold text-lg mb-1">
                           {data.name}
                         </h4>
-                        <p className="text-sm tracking-wide text-white">
+                        <p className="text-sm tracking-wide text-black">
                           {data.qualification}
                         </p>
-                      </div>
-                    </div>
                   </a>
                 )
               )}
