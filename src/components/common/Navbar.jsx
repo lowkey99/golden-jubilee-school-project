@@ -211,6 +211,30 @@ const Navbar = () => {
           </svg>
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
+        <li>
+            <HashLink
+              to="/admission/#admission-procedure"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              ADMISSION PROCEDURE
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/admission/#age-criteria"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              AGE CRITERIA
+            </HashLink>
+          </li>
+          <li>
+            <HashLink
+              to="/admission/#fee-structure"
+              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
+            >
+              FEE STRUCTURE
+            </HashLink>
+          </li>
           <li>
             <HashLink
               to="/admission/#admission-procedure"
