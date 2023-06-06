@@ -211,7 +211,7 @@ const Navbar = () => {
           </svg>
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
-        <li>
+          <li>
             <HashLink
               to="/admission/#admission-procedure"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
@@ -237,7 +237,7 @@ const Navbar = () => {
           </li>
           <li>
             <HashLink
-              to="/admission/#admission-procedure"
+              to="/admission/#rules-and-regulation"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
             >
               RULE AND REGULATION
@@ -269,14 +269,6 @@ const Navbar = () => {
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
             >
               CURRICULUM
-            </HashLink>
-          </li>
-          <li>
-            <HashLink
-              to="/academics/#rules-and-regulation"
-              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-            >
-              RULES AND REGULATION
             </HashLink>
           </li>
           <li>

@@ -1,7 +1,12 @@
+import RulesAndReg from "./RulesAndReg";
+
 const Admission = () => {
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
-      <div id="admission-procedure" className="py-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
+      <div
+        id="admission-procedure"
+        className="py-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl"
+      >
         <h1 className=" text-4xl font-bold mb-10">ADMISSION</h1>
         <div>
           <div className="grid sm:grid-cols-2 justify-center items-center gap-10">
@@ -38,11 +43,15 @@ const Admission = () => {
                     </tr>
                     <tr>
                       <th className="border">2</th>
-                      <td className="border">Transfer certificate from the previous school</td>
+                      <td className="border">
+                        Transfer certificate from the previous school
+                      </td>
                     </tr>
                     <tr>
                       <th className="border">3</th>
-                      <td className="border">Medical Fitness Certificate & Blood Group</td>
+                      <td className="border">
+                        Medical Fitness Certificate & Blood Group
+                      </td>
                     </tr>
                     <tr>
                       <th className="border">4</th>
@@ -97,13 +106,19 @@ const Admission = () => {
               {/* head */}
               <thead>
                 <tr className="border">
-                  <th colSpan={5} className="text-center border">FEES FOR THE ACADEMIC YEAR 2023-2024 </th>
+                  <th colSpan={5} className="text-center border">
+                    FEES FOR THE ACADEMIC YEAR 2023-2024{" "}
+                  </th>
                 </tr>
               </thead>
               <thead className="border">
                 <tr className="border">
-                  <th rowSpan={2} className="border">STANDARD</th>
-                  <th rowSpan={2} className="border">Regn.fee</th>
+                  <th rowSpan={2} className="border">
+                    STANDARD
+                  </th>
+                  <th rowSpan={2} className="border">
+                    Regn.fee
+                  </th>
                   <th className="border">1ST TERM</th>
                   <th className="border">2ND TERM</th>
                   <th className="border">3RD TERM</th>
@@ -154,6 +169,7 @@ const Admission = () => {
             </table>
           </div>
         </div>
+        <RulesAndReg />
       </div>
     </div>
   );
