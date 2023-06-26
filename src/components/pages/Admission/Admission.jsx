@@ -10,7 +10,7 @@ const Admission = () => {
         <h1 className=" text-4xl font-bold mb-10">ADMISSION</h1>
         <div>
           <div className="grid sm:grid-cols-2 justify-center items-center gap-10">
-            <div>
+            <div className="w-[350px] lg:w-full mx-auto lg:max-w-2xl">
               <h3 className="text-xl font-semibold">THE ADMISSION PROCEDURE</h3>
               <ul className="list-outside list-disc">
                 <li className="my-4">
@@ -23,8 +23,8 @@ const Admission = () => {
                 </li>
               </ul>
             </div>
-            <div>
-              <div className="overflow-x-auto">
+            <div className="w-[350px] lg:w-full mx-auto lg:max-w-2xl">
+              <div style={{ overflowX: "auto" }}>
                 <table className="table table-zebra w-full">
                   {/* head */}
                   <thead>
@@ -100,7 +100,7 @@ const Admission = () => {
               </tbody>
             </table>
           </div>
-          <div id="fee-structure" className="flex flex-col items-center my-20">
+          <div id="fee-structure" style={{ overflowX: "auto" }} className="flex flex-col items-center my-20">
             <h3 className="text-xl font-semibold mb-5">FEE STRUCTURE</h3>
             <table className="table table-compact border">
               {/* head */}

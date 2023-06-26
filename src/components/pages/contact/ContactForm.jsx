@@ -6,7 +6,7 @@ import { HiLink } from "react-icons/hi";
 function ContactForm() {
   return (
     <div className="my-20">
-      <div className="grid grid-cols-2">
+      <div className="grid lg:grid-cols-2">
         {/* contact information form */}
         <div className="bg-blue-800 p-8">
           <div className="flex justify-between">

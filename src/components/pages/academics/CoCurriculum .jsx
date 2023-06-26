@@ -6,7 +6,7 @@ const CoCurriculum = () => {
     >
       <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">
       <h3 className="text-3xl font-bold mb-5">Co- Curriculum Activities </h3>
-      <div className="grid grid-cols-2 items-start gap-8">
+      <div className="grid lg:grid-cols-2 items-start gap-8 mb-10">
         <div className="px-8">
           <h4 className="text-xl font-semibold mb-3 text-blue-500">Physical Education</h4>
           <p> Band, Drill & P.T</p>

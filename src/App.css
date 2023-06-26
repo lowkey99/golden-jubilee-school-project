@@ -1,11 +1,12 @@
 .event {
     width: auto;
     background-color: lightgoldenrodyellow;
-    padding: 30px;
+    padding: 15px;
   }
   
   .event .heading {
     border-bottom: 5px solid orange;
+    margin-top: 20px;
     padding: 10px;
     color: #fff;
     background-color: orange;

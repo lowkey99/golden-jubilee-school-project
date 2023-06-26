@@ -1,12 +1,12 @@
-import Logo from "../../assets/SSBV(1).png";
+import Logo from "../../assets/header-right-side-photos/Frame 20.png";
 import LeftImg1 from "../../assets/left-corner-side-header/2023-05-03 18_11_54-Kanchi-Acharyas1.jpg ‎- Photos.png";
 import LeftImg2 from "../../assets/left-corner-side-header/2023-05-03 18_12_46-Kanchi-Acharyas1.jpg ‎- Photos.png";
 import LeftImg3 from "../../assets/left-corner-side-header/2023-05-03 18_12_55-Kanchi-Acharyas1.jpg ‎- Photos.png";
 import LeftImg4 from "../../assets/left-corner-side-header/2023-05-03 18_13_37-adi shankara - Google Search.png";
-import LeftImg5 from "../../assets/header-right-side-photos/Late.Sri.K.M.SUBRAMNIAM.png";
-import LeftImg6 from "../../assets/header-right-side-photos/Late.Smt.SARADASUBRAMANIAM.png";
-import LeftImg7 from "../../assets/header-right-side-photos/Sri.K.S.ANANTHANARAYANAN.png";
-import LeftImg8 from "../../assets/header-right-side-photos/Sri.K.S.S.KRISHNAN.png";
+import LeftImg5 from "../../assets/header-right-side-photos/Late.png";
+import LeftImg6 from "../../assets/header-right-side-photos/sarada.png";
+import LeftImg7 from "../../assets/header-right-side-photos/ana.png";
+import LeftImg8 from "../../assets/header-right-side-photos/kss.png";
 
 const Header = () => {
   return (

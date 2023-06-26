@@ -183,13 +183,12 @@ const Navbar = () => {
         </NavLink>
         <ul className="p-2 bg-orange-500 divide-y divide-black text-white">
           <li>
-            <NavLink
-              to="/new"
+            <HashLink
+              to="/facility/#transport"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
             >
               TRANSPORT
-            </NavLink>
+            </HashLink>
           </li>
         </ul>
       </li>
@@ -219,6 +218,7 @@ const Navbar = () => {
               ADMISSION PROCEDURE
             </HashLink>
           </li>
+
           <li>
             <HashLink
               to="/admission/#age-criteria"

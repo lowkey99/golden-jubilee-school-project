@@ -10,6 +10,7 @@ import Contact from "../pages/contact/Contact";
 import Admission from "../pages/Admission/Admission";
 import Academics from "../pages/academics/Academics";
 import CBSE from "../pages/cbse/CBSE";
+import Facility from "../pages/facilty/Facilty";
 
 export const router = createBrowserRouter([
   {
@@ -56,6 +57,10 @@ export const router = createBrowserRouter([
       {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/facility",
+        element: <Facility />,
       },
     ],
   },

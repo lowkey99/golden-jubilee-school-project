@@ -1,5 +1,5 @@
 import { useState } from "react";
-import LeftImg5 from "../../../assets/header-right-side-photos/Late.Sri.K.M.SUBRAMNIAM.png";
+import LeftImg5 from "../../../assets/header-right-side-photos/Late.png";
 import VEDASUBIRA from "../../../assets/A.VEDASUBIRA-ANIAM.png";
 import Sridhar from "../../../assets/Rama-Sridhar.png";
 import ModalUIAbout from "./Modal";

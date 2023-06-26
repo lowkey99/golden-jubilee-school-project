@@ -7,6 +7,7 @@ import Akbarsha from "../../../assets/Akbarsha.png";
 import Gandthimathi from "../../../assets/Gandthimathi.png";
 import Kalyani from "../../../assets/Kalyani Ramesh.png";
 import Rama from "../../../assets/Rama-Sridhar.png";
+import SA from "../../../assets/Rama-Sridhar.png";
 import DEVI from "../../../assets/new.png";
 
 const AboutBoard = () => {
@@ -79,7 +80,7 @@ const AboutBoard = () => {
                 alt=""
               />
               <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-75">
-                <h3 className="text-2xl font-semibold tracking-wide text-white">
+                <h3 className="text-xl font-semibold tracking-wide text-white">
                   {member.name}
                 </h3>
                 <p className="text-sm tracking-wide text-white">
