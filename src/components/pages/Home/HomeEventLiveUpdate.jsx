@@ -61,58 +61,6 @@ const HomeEventLiveUpdate = () => {
               </div>
             </div>
           </div>
-          <div className="mockup-phone border-primary">
-            <div className="camera"></div>
-            <div className="display">
-              <div className="artboard phone-1">
-                <div className="event">
-                  <h2 className="heading">Events</h2>
-                  <div
-                    className="scroll py-1 2xl:pt-9"
-                    style={{ height: "auto" }}
-                  >
-                    <ul className="">
-                      <li>
-                        <span className="event-date">
-                          29 <br />
-                          April
-                        </span>
-                        New admission opens for LKG to IX
-                      </li>
-                      <li>
-                        <span className="event-date">
-                          29 <br />
-                          April
-                        </span>
-                        New admission opens for LKG to IX
-                      </li>
-                      <li>
-                        <span className="event-date">
-                          29 <br />
-                          April
-                        </span>
-                        New admission opens for LKG to IX
-                      </li>
-                      <li>
-                        <span className="event-date">
-                          29 <br />
-                          April
-                        </span>
-                        New admission opens for LKG to IX
-                      </li>
-                      <li>
-                        <span className="event-date">
-                          29 <br />
-                          April
-                        </span>
-                        New admission opens for LKG to IX
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
           <div className="">
             <div className="card bg-base-200 text-blue-800 shadow-md">
               <figure className="px-10 pt-10">
