@@ -1,7 +1,19 @@
 import campus1 from "../../../assets/campus/1.jpg";
-import campus2 from "../../../assets/Kanchi-Acharyas1.jpg";
+import React, { useState, useEffect } from 'react';
+import './event.css'
 
 const HomeEventLiveUpdate = () => {
+ 
+  const [newsItems, setNewsItems] = useState([
+   
+    "",
+    'We SSBVGJSians are delighted to open our doors to new students for the academic year 2024-2025 ,',
+    'Upcoming Exams : PA 2 For Primary & PA 3 For Secondary , Will begin on NOV 15th 2023 . '
+    
+
+  
+  ]);
+
   return (
     <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
       <div className="pb-10 mx-auto max-w-full md:max-w-full lg:max-w-screen-lg xl:max-w-screen-lg 2xl:max-w-screen-xl">
@@ -50,42 +62,38 @@ const HomeEventLiveUpdate = () => {
                         />
                       </svg>
                       <p className="text-center text-lg font-semibold border-2 border-orange-500 p-3">
-                        We are happy to announce the opening of online
-                        registration for new admission for the academic year
-                        2023- 24 from 1st Dec 2022 for the classes from LKG to
-                        std Xl
+                      <div className="vertical-ticker">
+    <ul>
+      {newsItems.map((item, index) => (
+        <li key={index}>{item}</li>
+      ))}
+    </ul>
+  </div>
                       </p>
                     </div>
+                    
                   </div>
+                 <div className="flex-col text-center"> <div className="text-m font-semibold" ><a href="https://forms.gle/qSvrDnh1x4d8WEHJA" target="_blank" rel="noopener noreferrer" className="text-blue-800 text-lg font-bold cursor-pointer" >Click Here</a> To Fill Admission Enquiry</div></div>
                 </div>
               </div>
             </div>
           </div>
           <div className="">
-            <div className="card bg-base-200 text-blue-800 shadow-md">
+            <div className="card bg-base-200 text-xl shadow-md font-semibold">
               <figure className="px-10 pt-10">
                 <img src={campus1} alt="Shoes" className="rounded-xl " />
               </figure>
               <div className="card-body items-center text-center">
                 <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Neque illum beatae accusamus quo minima maxime, veniam
-                  reiciendis sunt quasi dolor recusandae iure? Quisquam
-                  laboriosam optio voluptatum delectus hic enim voluptas.
+                The future belongs to those who believe in the beauty of their dreams
+               
                 </p>
                 <div className="card-actions"></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="relative shadow-xl border-8 sm:border-[20px] border-orange-500 mx-auto mt-20 mb-10 rounded-lg ">
-          <img className="w-full sm:h-[500px]" src={campus2} alt="" />
-          <center className="absolute bottom-0 left-[50%] transform -translate-x-[50%] bg-[#000000a7] text-white sm:font-bold sm:text-xl sm:p-5 w-full">
-            Reality can be experienced only with the eye of understanding, not
-            just by a scholar
-            <p className="text-end sm:mt-3">-Adi Shankarachary</p>
-          </center>{" "}
-        </div>
+
       </div>
     </div>
   );

@@ -1,14 +1,14 @@
 import { useState } from "react";
-import sriram from "../../../assets/Sriram-sir.png";
-import AKBARSHA from "../../../assets/AKBARSHA.png";
-import SL from "../../../assets/SL-SRIRAM-PP.png";
+import sriram from "../../../assets/sriram.png";
+import veda from "../../../assets/A.VEDASUBIRA-ANIAM.png";
+import SL from "../../../assets/SL-SRIRAM.png";
 import Akbarsha from "../../../assets/Akbarsha.png";
 
 import Gandthimathi from "../../../assets/Gandthimathi.png";
-import Kalyani from "../../../assets/Kalyani Ramesh.png";
-import Rama from "../../../assets/Rama-Sridhar.png";
-import SA from "../../../assets/Rama-Sridhar.png";
+import Kalyani from "../../../assets/Kalyani.png";
+import Rama from "../../../assets/rama.png";
 import DEVI from "../../../assets/new.png";
+
 
 const AboutBoard = () => {
   const [showAll, setShowAll] = useState(false);
@@ -29,14 +29,14 @@ const AboutBoard = () => {
       image: SL,
     },
     {
-      name: "S.AKBARSHA",
+      name: "S.AKBAR SHAH",
       position: "Patron",
       image: Akbarsha,
     },
     {
       name: "A.VEDASUBRAMANIAM",
       position: "Secretary cum Correspondent",
-      image: AKBARSHA,
+      image: veda,
     },
     {
       name: "A. GANDHIMATHI",
@@ -54,8 +54,8 @@ const AboutBoard = () => {
       image: Kalyani,
     },
     {
-      name: "DEVI DORAI",
-      position: "Administration Co-ordination",
+      name: "DEVI D",
+      position: "Administration Co-ordinator",
       image: DEVI,
     },
 
@@ -65,7 +65,7 @@ const AboutBoard = () => {
 
   return (
     <div
-      id="committee"
+      id="board"
       className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0 my-3 sm:my-10"
     >
       <div id="correspondent" className="px-4 pb-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pb-20">

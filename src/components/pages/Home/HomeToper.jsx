@@ -1,7 +1,12 @@
-import toperIMG1 from "../../../assets/1.png";
-import toperIMG2 from "../../../assets/Ellipse5.png";
-import toperIMG3 from "../../../assets/Ellipse5(2).png";
+import toperIMG1 from "../../../assets/topper/1.jpeg" ;
+import toperIMG2 from "../../../assets/topper/2.jpeg";
+import toperIMG3 from "../../../assets/topper/3.jpg";
+import toperIMG4 from "../../../assets/topper/4.png";
+import toperIMG5 from "../../../assets/topper/5.jpeg";
+import toperIMG6 from "../../../assets/topper/6.jpeg";
+import toperIMG7 from "../../../assets/topper/7.jpeg";
 import { useState } from "react";
+
 
 const HomeToper = () => {
   const [showAll, setShowAll] = useState(false);
@@ -13,74 +18,48 @@ const HomeToper = () => {
   const toperDetails = [
     {
       id: "101",
-      img:  toperIMG2 ,
-      title: "M.Mothith",
+      img:  toperIMG1 ,
+      title: "Sivapriya N",
       color: "#FFF7D4",
-      rank: "565/600",
+      rank: "549/600",
     },
     {
       id: "102",
-      img:  toperIMG1 ,
-      title: "Surikutchi sandhya",
+      img:  toperIMG2 ,
+      title: "Shakti Swarupini K ",
       color: "#FFACAC",
-      rank: "565/600",
+      rank: "542/600",
     },
     {
       id: "103",
       img:  toperIMG3 ,
-      title: "M.Mothith",
+      title: "Aiswaryalakshmi A",
       color: "#DDFFBB",
-      rank: "565/600",
+      rank: "539/600",
     },
     {
       id: "104",
-      img:  toperIMG2 ,
-      title: "M.Mothith",
+      img:  toperIMG4 ,
+      title: "Avanthika M",
       color: "#FFF7D4",
-      rank: "565/600",
-    },
-    {
-      id: "105",
-      img:  toperIMG1 ,
-      title: "Surikutchi sandhya",
-      color: "#FFACAC",
-      rank: "565/600",
+      rank: "576/600",
     },
     {
       id: "106",
-      img:  toperIMG3 ,
-      title: "M.Mothith",
+      img:  toperIMG7 ,
+      title: "A Aishwarya",
       color: "#DDFFBB",
-      rank: "565/600",
+      rank: "559/600",
     },
+ 
     {
-      id: "107",
-      img:  toperIMG2 ,
-      title: "M.Mothith",
-      color: "#FFF7D4",
-      rank: "565/600",
-    },
-    {
-      id: "108",
-      img:  toperIMG1 ,
-      title: "Surikutchi sandhya",
-      color: "#FFACAC",
-      rank: "565/600",
-    },
-    {
-      id: "109",
-      img:  toperIMG3 ,
-      title: "M.Mothith",
+      id: "106",
+      img:  toperIMG6 ,
+      title: "S Govardhanan",
       color: "#DDFFBB",
-      rank: "565/600",
+      rank: "559/600",
     },
-    {
-      id: "110",
-      img:  toperIMG3 ,
-      title: "M.Mothith",
-      color: "#DDFFBB",
-      rank: "565/600",
-    },
+  
   ];
 
 
@@ -95,7 +74,7 @@ const HomeToper = () => {
             Achievements
           </h1>
           <h1 className="text-4xl font-bold text-center mt-3">
-            XII Toppers (2021 - 2022)
+            XII Toppers (2022 - 2023)
           </h1>
           <div className="sm:grid grid-cols-3 gap-10 mt-10">
             {firstThreeToppers.map((detail) => (
@@ -110,9 +89,7 @@ const HomeToper = () => {
                 </figure>
                 <div className="card-body items-center text-center justify-between pb-2">
                   <h2 className="card-title text-2xl mb-2">{detail.title}</h2>
-                  <button className="bg-red-600 shadow-md px-5 py-3 rounded-md text-white text-3xl font-semibold hover:bg-red-800 ">
-                    {detail.rank}
-                  </button>
+                  
                 </div>
               </div>
             ))}
@@ -132,9 +109,7 @@ const HomeToper = () => {
                     </figure>
                     <div className="card-body items-center text-center justify-between pb-2">
                       <h2 className="card-title text-2xl mb-2">{detail.title}</h2>
-                      <button className="bg-red-600 shadow-md px-5 py-3 rounded-md text-white text-3xl font-semibold hover:bg-red-800 ">
-                        {detail.rank}
-                      </button>
+                     
                     </div>
                   </div>
                 ))

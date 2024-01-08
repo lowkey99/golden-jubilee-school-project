@@ -48,13 +48,13 @@ const TransportTeam = () => {
       id: "8",
       category: "Van Attenders",
       img: VEDASUBIRA,
-      name: "Smt. Janani",
+      name: "Smt. JANANI",
     },
     {
       id: "9",
       category: "Van Attenders",
       img: VEDASUBIRA,
-      name: "Smt.  Aathi Lakshmi",
+      name: "Smt.  AATHI LAKSHMI",
     },
     {
       id: "10",

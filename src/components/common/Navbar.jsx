@@ -6,6 +6,7 @@ const Navbar = () => {
     background: "#fff0",
     color: "#444bcb",
     fontWeight: "600",
+    
   };
 
   const menuItem = (
@@ -279,17 +280,10 @@ const Navbar = () => {
               CO-CURRICULAR ACTIVITES
             </HashLink>
           </li>
+          
           <li>
             <HashLink
-              to="/new"
-              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-            >
-              ACHIEVEMENTS & AWARDS
-            </HashLink>
-          </li>
-          <li>
-            <HashLink
-              to="/new"
+              to="/academics/#event"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
             >
               CALENDAR
@@ -351,26 +345,10 @@ const Navbar = () => {
           </li>
           <li>
             <HashLink
-              to="/team/#house-team"
+              to="/team/#office"
               className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
             >
-              HOUSE- KEEPING TEAM
-            </HashLink>
-          </li>
-          <li>
-            <HashLink
-              to="/team/#transport-team"
-              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-            >
-              TRANSPORT TEAM
-            </HashLink>
-          </li>
-          <li>
-            <HashLink
-              to="/team/#security-team"
-              className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm"
-            >
-              SECURITY TEAM
+              OFFICE ASSISTANT
             </HashLink>
           </li>
         </ul>
@@ -381,7 +359,7 @@ const Navbar = () => {
           className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm uppercase text-[12px]"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
-          mandatory-disclosure-(cbse)
+          mandatory <br /> disclosure <br /> (cbse)
         </NavLink>
       </li>
       <li>
@@ -399,7 +377,7 @@ const Navbar = () => {
           className="hover:text-[#444bcb] px-4 py-2 hover:px-4 hover:py-2 hover:rounded-sm uppercase"
           style={({ isActive }) => (isActive ? activeStyle : undefined)}
         >
-          contact-us
+          contact us
         </NavLink>
       </li>
     </>

@@ -1,4 +1,4 @@
-import Infrastructure from "../../../assets/campus/6.jpg";
+import Infrastructure from "../../../assets/campus/sports_day.jpg";
 import { FaLaptop, FaBusAlt, FaSms } from "react-icons/fa";
 import { BiBook, BiNews } from "react-icons/bi";
 import { ImLab } from "react-icons/im";
@@ -10,14 +10,14 @@ const HomeInfrastructure = () => {
       img: FaLaptop,
       title: "Smart Class",
       details:
-        "Smart boards available in every classroom has a wide range of content from various boards. It enables students to visualize and understand the difficult concepts",
+        "Smart boards available in our classrooms offer interactive learning experiences. They enable dynamic presentations, collaborative activities, and can enhance student engagement through multimedia content",
     },
     {
       id: "102",
       img: BiBook,
       title: "Library",
       details:
-        "The library stacks over 15.000 books of various fields and is a storehouse of knowldge. These books enhance extra learning both for the teacher and the taught",
+        "The library stacks over 5,000 books of various fields and is a storehouse of knowldge. These books enhance extra learning both for the teacher and the taught",
     },
     {
       id: "103",
@@ -38,7 +38,7 @@ const HomeInfrastructure = () => {
       img: FaSms,
       title: "SMS Facility",
       details:
-        "A platfon to bridge the gap between the school and the parents. The school activities and other important information are passed over to the parents through this platform",
+        "A platform to bridge the gap between the school and the parents. The school activities and other important information are passed over to the parents through this platform",
     },
     {
       id: "106",
@@ -57,7 +57,7 @@ const HomeInfrastructure = () => {
           backgroundSize: "cover",
           backgroundPosition: "center",
           width: "100%",
-          height: "560px",
+          height: "720px",
         }}
       ></div>
       <div className="mx-4 md:mx-24 lg:mx-0 xl:mx-0 2xl:mx-0">
@@ -79,11 +79,7 @@ const HomeInfrastructure = () => {
                 </div>
               ))}
             </div>
-            <div className="text-center">
-                <button className="bg-blue-700 px-8 py-3 rounded-md text-white font-semibold hover:bg-blue-800 mt-10">
-                    View all Facility
-                </button>
-            </div>
+            
           </div>
         </div>
       </div>
