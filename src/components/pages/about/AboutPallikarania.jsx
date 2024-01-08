@@ -1,5 +1,5 @@
-import origin from "../../../assets/campus/4.jpg";
-import vision from "../../../assets/campus/6.jpg";
+import origin from "../../../assets/campus/IMG_0106.jpg";
+import vision from "../../../assets/campus/12.jpg";
 
 const AboutPallikarania = () => {
   return (
@@ -17,39 +17,21 @@ const AboutPallikarania = () => {
             <h5 id="vision" className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
               ORIGIN
             </h5>
-            <p className="mb-5 text-gray-800">
+            <p className="mb-5 text-gray-800 text-justify">
               <span className="font-bold">
-                Stee Sankara Bala Vidyalaya Golden Jubilee School{" "}
+                Sree Sankara Bala Vidyalaya Golden Jubilee School{" "}
               </span>{" "}
-              inherited its legacy from See Sankara Bala Vidyalaya, TNagar which
-              was founded on the advice and with the Blessings of Paramacharya
-              the Mahaswami of Kanchi. SSBV, T.Nagar was the FIRST English
-              Medium School in T.Nagar, and served the residents in and around
-              T.Nagar for over 48 years. It had the unblemished record of
-              providing Quality Education since in this inception in 1958.
-              VISION SSBVGJS, Pallikaranai was started with Blessings of His
-              Holiness Puivas Sri Jayendra Saraswathi Swamigal, the Acharya of
-              Kanchi kamakodi Peetam. To Commemorate the inauguration of SSBV.
-              T.Nagar in 1958 SSBVGJS was established in 2008 and the school has
-              crawled successfully to complete 12 years of useful, meaningful &
-              fruitful Existence.
+              Sree Sankara Bala Vidyalaya Golden Jubilee School inherited its
+legacy from Sree Sankara Bala Vidyalaya, T.Nagar which was founded
+on the advice and with the blessings of Paramacharya the Mahaswami
+of Kanchi.<br>
+</br>
+SSBV was the first English medium school in T.Nagar, served the
+residents in and around the area for over 48 years. It had the
+unblemished record of providing quality education since its inception in
+1958.
             </p>
-            <div className="flex items-center">
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn More
-                <svg
-                  className="inline-block w-3 ml-2"
-                  fill="currentColor"
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-                </svg>
-              </a>
-            </div>
+            
           </div>
         </div>
         <div  className="flex flex-col max-w-screen-lg overflow-hidden bg-white border shadow-sm lg:flex-row sm:mx-auto">
@@ -57,34 +39,22 @@ const AboutPallikarania = () => {
             <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
               VISION
             </h5>
-            <p className="mb-5 text-gray-800">
-              <span className="font-bold">SSBVGJS, Pallikaranai</span> dwas
-              started with Blessings of His Holiness Pujas Sri Jayendra
-              Saraswathi Swamigal, the Acharya of Kanchi kamakodi Peetam. To
-              Commemorate the inauguration of SSBV, T.Nagar in 1958 SSBVGJS was
-              established in 2008 and the school has crawled successfully to
-              complete 12 years of useful, meaningful & fruitful Existence. With
-              Divine Blessings of The Holiness SSBVGJS shall fulfill the
-              Cherished desire in providing Quality Education to Young Minds
-              between 3 & 16 and imbibe them with rich heritage, values and
-              traditions and to make our torch Beaters
+            <p className="mb-5 text-gray-800 text-justify">
+            <span className="font-bold
+">SSBVGJS </span>was established in the year 2008 and the school has
+stood up successfully and has completed 15 years of flourishing,
+rewarding, effective and meaningful &amp; conducive existence.<br></br>
+Our school teaches students, the fundamentals of life to instill
+values and principles and serve as a perfect place to develop a strong
+positive impact on their attitude and personality. Students learn with
+enjoyment and that is the reason that school life is considered the best
+phase of our life.<br></br>
+A good school will have fair-minded, passionate, skilled and
+supportive mentors who will work towards providing quality education,
+values to students and groom them to become a fair human being,
+good citizen and develop positive attitude to reach higher goals.
             </p>
-            <div className="flex items-center">
-              <a
-                href="/"
-                aria-label=""
-                className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-              >
-                Learn More
-                <svg
-                  className="inline-block w-3 ml-2"
-                  fill="currentColor"
-                  viewBox="0 0 12 12"
-                >
-                  <path d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z" />
-                </svg>
-              </a>
-            </div>
+            
           </div>
           <div className="relative lg:w-1/2">
             <img

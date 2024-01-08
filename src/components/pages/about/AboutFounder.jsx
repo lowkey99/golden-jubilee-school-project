@@ -1,7 +1,9 @@
 import { useState } from "react";
 import LeftImg5 from "../../../assets/header-right-side-photos/Late.png";
 import VEDASUBIRA from "../../../assets/A.VEDASUBIRA-ANIAM.png";
-import Sridhar from "../../../assets/Rama-Sridhar.png";
+import Sridhar from "../../../assets/rama.png";
+import img4 from "../../../assets/sriram.png";
+
 import ModalUIAbout from "./Modal";
 
 const AboutFounder = () => {
@@ -37,19 +39,20 @@ const AboutFounder = () => {
     {
       id: "102",
       position: "Chairman & Managing Trustee",
-      img: LeftImg5,
+      img: img4,
       name: "A. SRIRAM",
       details: {
         detail1:
-          "SSBVGJS an Institution which was found to provide and inculcate holistic education is now slowly becoming to bear fruits.",
+          "Education is a shared commitment between dedicated teachers, motivated students and enthusiastic parents with high expectations.",
 
         detail2:
-          "Our school which was established in 2008 has completed a decade of glorious and meaningful episodes.  The school has experienced the best and the worst in its 10 years of service to the society.  Repeated success in board exams, accolades in the game of chess at the international level  by our child prodigy R.Ilamparithi, Inventions of our budding scientists like K Balasubramaniam, Kannan and B.Srinidhi, powerful orators like S.Jasmine Riswana, our Proficiency ambassadors K.Rajalakshmi and P.R.Jothi Yamini and our successful sports persons like S.Hasan Mohamad, S.Aparna and D.Ramola are the fruits that has decorated our basket.",
-
-        detail3:
-          "Our management always stands second to none in not only keeping its commitment of excellent necessary infrastructure but also see’s to that the infrastructure becomes the integral system of our students and school.  The provision of Audio Visual equipment in classrooms particularly for the kindergarten sections , new sanitation block at each floor, elaborate science labs, extension of classrooms and other allied rooms in the third floor have been completed and stands testimony to our commitment in fulfilling the promise made to parents time and again.  Plans are in the offing for elaborate library,  Yoga and Meditation space and other allied very soon. I am always highly optimistic and with the blessings of our elders and best wishes of parents and friends, the school will march in its journey of achieving the concept of all inclusive holistic education.",
+        "It is indeed a privilege to manage a grand old school like ours where every child is a potential leader.I welcome all the parents and students of this institution for an inspiring and exciting academic year.My sincere regards and deep gratitude to the valued stakeholders for continued support and trust. Parents always have been the motivational force and have facilitated us to move ahead and achieve the excellent results despite the numerous challenges.",
+  
+        detail3:"We have high expectations for every child and we are committed to bring the change in the student’s life with the best input and provide a safe and the best learning environment in the school. We are determined to work harder in the new session and have lined up activities and programmes that will benefit our children. Our dedicated, experienced, and hardworking team is set to deliver their best ad the curriculum has been improved upon, to raise the standard of teaching and learning. We recognise that parents play an important role in the education of their children as always and our desire to build an all-round, balanced individual cannot be achieved without your support.        " 
       },
-    },
+            
+          detail4:""
+      },
     {
       id: "103",
       position: "Secretary cum Correspondent",
@@ -57,13 +60,14 @@ const AboutFounder = () => {
       name: "A. VEDASUBRAMANIAM",
       details: {
         detail1:
-          "Our school stands apart and has earned the credibility of being one among the best schools which cares for students to explore and enjoy the challenges around.",
+          "“Education is a right not a privilege”Hence qualitative education will give everyone an equal chance to develop their abilities.",
 
         detail2:
-          "The display day of our school which exhibits the skills of our students in diverse sections, the annual extravagansa “SHANKARAM” of our School brings out the latent talents of our children on stage, the Capacity Building Programme for our Teachers updates them with latest and vital Information and the overall periodical review of our activities gives a complete shape to the positive energy of our system.",
-
+         " Our school is a well known institute in pallikaranai for its quality education and the spiritual, academic and cultural atmosphere within the campus. It provides a safe learning environment for teaching the students through the physical,the cognitive,the social and the affective domain which helps them to collaborate, make connections, become creative and confident and integrate knowledge into real life situations . I am extremely delighted to welcome our students to the exciting new academic year and share the news that our school has produced cent percent results in class X and XII. Students have been thrust with technology without any warning and they rose like phoenix bird and adapted to the change .We took steps in such a manner that every child’s learning improved and came back to their original self.",
         detail3:
-          "At this juncture, I feel and I am of the strong opinion that the Parental Involvement in making and encouraging their wards to be a participant in this saga of inheriting qualities from our culture based education is the need of the hour and I wish that the change of Guard in our School Academic Hierarchy will provide the necessary solution to our needs",
+        "Hands on activities in our school helps in bringing out their true potential and personality and moulds their character which is essential in the steps they are going to take to reach their goals and achieve their dreams. Our teachers are constantly going through the capacity building workshops to upgrade themselves with vital and latest knowledge and information with respect to their subject which helps them in grooming their students to become compassionate, have control, and courage.These, we believe, will transform and improve the way our students think,behave,and feel towards each other and the society at large."
+        ,
+        detail4:"Best wishes for yet an other fun filled learning!!!"
       },
     },
     {
@@ -79,6 +83,7 @@ const AboutFounder = () => {
           "With lot of hopes and support from the parents, we are back to the next academic year successfully for the physical classes and to regular schooling.  Expansion in the school building, bigger labs, more class rooms and avid green around the campus are welcome factors from the Management.  Teaching faculty are attending training programs to improve their skills and improvise the same in the class room.  Let us welcome the next year with more confidence and trust  in the Providence. I end the note  with an assurance that all efforts will be taken towards the betterment of the students.",
 
         detail3: "",
+        detail4:""
       },
     },
   ];
@@ -92,7 +97,7 @@ const AboutFounder = () => {
         <div id="principal" className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
           {teacherData.map((data) => (
             <div key={data.id} className="">
-              <h6 className="mb-2 font-semibold leading-5">{data.position}</h6>
+              
               <div className="">
                 <div className="flex items-start justify-start mb-4 ">
                   <div className="avatar">
@@ -101,8 +106,9 @@ const AboutFounder = () => {
                     </div>
                   </div>
                 </div>
-                <h6 className="mb-2 font-semibold leading-5">{data.name}</h6>
-                <p className="mb-3 text-sm text-gray-900">
+                <h6 className="mb-2 font-semibold text-lg leading-5">{data.name}</h6>
+                <h6 className="mb-2 font-medium leading-5">{data.position}</h6>
+                <p className="mb-3 text-sm  text-gray-900">
                   {data.details.detail1.slice(0, 700)}....
                   <div className="inset-0 inline-block">
                     <button
@@ -124,6 +130,7 @@ const AboutFounder = () => {
         detail1={modalDetails.detail1}
         detail2={modalDetails.detail2}
         detail3={modalDetails.detail3}
+        detail4={modalDetails.detail4}
       />
     </div>
   );

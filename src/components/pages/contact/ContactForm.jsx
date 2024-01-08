@@ -51,7 +51,7 @@ function ContactForm() {
             </div>
             <div>
               <h2 className="text-slate-200 text-xs">Visit Us :</h2>
-              <a href="http://ssbvgjs.com/" className="text-white text-xs" target="_blank" rel="noopener noreferrer">ssbvgjs.com</a>
+              <a href="http://ssbvgjs.net/" className="text-white text-xs" target="_blank" rel="noopener noreferrer">ssbvgjs.net</a>
             </div>
           </div>
         </div>

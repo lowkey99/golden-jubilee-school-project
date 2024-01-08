@@ -1,4 +1,4 @@
-import Logo from "../../assets/header-right-side-photos/Frame 20.png";
+import Logo from "../../assets/top.png";
 import LeftImg1 from "../../assets/left-corner-side-header/2023-05-03 18_11_54-Kanchi-Acharyas1.jpg ‎- Photos.png";
 import LeftImg2 from "../../assets/left-corner-side-header/2023-05-03 18_12_46-Kanchi-Acharyas1.jpg ‎- Photos.png";
 import LeftImg3 from "../../assets/left-corner-side-header/2023-05-03 18_12_55-Kanchi-Acharyas1.jpg ‎- Photos.png";
@@ -11,7 +11,7 @@ import LeftImg8 from "../../assets/header-right-side-photos/kss.png";
 const Header = () => {
   return (
     <div className="bg-[#f7f7f7] shadow ">
-      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-5 sm:py-0">
+      <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8 py-5 sm:py-2">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-around">
           <div className="lg:flex items-center justify-center sm:justify-between gap-2 order-2 lg:order-1 my-3 lg:my-0 hidden">
             <div className="avatar">

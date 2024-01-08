@@ -1,68 +1,62 @@
 import Gallery from "react-photo-gallery";
 import img1 from "../../../assets/campus/1.jpg";
 import img2 from "../../../assets/campus/2.jpg";
-import img3 from "../../../assets/campus/3.jpg";
-import img4 from "../../../assets/campus/4.jpg";
+import img3 from "../../../assets/campus/sports.jpg";
+import img4 from "../../../assets/campus/yogo.jpg";
 import img5 from "../../../assets/campus/5.jpg";
 import img6 from "../../../assets/campus/6.jpg";
-import img7 from "../../../assets/campus/7.jpg";
-import img8 from "../../../assets/campus/8.jpg";
-import img9 from "../../../assets/campus/9.jpg";
-import img10 from "../../../assets/campus/10.jpg";
+import img7 from "../../../assets/campus/sport1.jpg";
+
+import img9 from "../../../assets/campus/guru.jpg";
+import img10 from "../../../assets/campus/guru1..jpg";
 import img11 from "../../../assets/campus/11.jpg";
 import img12 from "../../../assets/campus/12.jpg";
 import img13 from "../../../assets/campus/13.jpg";
+import img15 from "../../../assets/campus/15.jpg";
+import img14 from "../../../assets/campus/14.jpg";
 
 const GalleryPhoto = () => {
   const photos = [
     {
       src: img1,
       width: 4,
-      height: 3,
+      height: 2,
     },
     {
       src: img2,
-      width: 1,
-      height: 1,
+      width: 4,
+      height: 3,
     },
     {
       src: img3,
       width: 4,
-      height: 3,
+      height: 2,
     },
     {
       src: img4,
-      width: 1,
-      height: 1,
+      width: 3,
+      height: 2,
     },
-    {
-      src: img5,
-      width: 4,
-      height: 3,
-    },
+   
     {
       src: img6,
-      width: 1,
+      width: 4,
       height: 1,
     },
     {
       src: img7,
       width: 4,
-      height: 3,
+      height: 2,
     },
-    {
-      src: img8,
-      width: 1,
-      height: 1,
-    },
+    
     {
       src: img9,
       width: 4,
-      height: 3,
+      height: 2,
     },
     {
       src: img10,
-      width: 1,
+      width: 3,
       height: 1,
     },
     {
@@ -72,12 +66,22 @@ const GalleryPhoto = () => {
     },
     {
       src: img12,
-      width: 1,
+      width: 2,
       height: 1,
     },
     {
       src: img13,
-      width: 1,
+      width: 2,
+      height: 1,
+    },
+    {
+      src: img15,
+      width: 3,
+      height: 1,
+    },
+    {
+      src: img14,
+      width: 3,
       height: 1,
     },
   ];

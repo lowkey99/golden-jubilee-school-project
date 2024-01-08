@@ -3,47 +3,62 @@ const CBSE = () => {
     {
       id: "1",
       name: "Mandtory Discloure (2023-2024)",
-      path: "/public/1.  Mandtory Discloure (2023-2024).pdf",
+      path: "/1.pdf",
     },
     {
       id: "2",
       name: "NOC From State Government",
-      path: "/public/2. NOC From State Government.pdf",
+      path: "/2.pdf",
     },
     {
       id: "3",
       name: "Trust Deed",
-      path: "/public/3. Trust Deed.pdf",
+      path: "/3.pdf",
     },
     {
       id: "4",
       name: "Building Safety Certificate (Form - D)",
-      path: "/public/4. Building Safety Certificate (Form - D).pdf",
+      path: "/4.pdf",
     },
     {
       id: "5",
       name: "Fire Safety Certificate",
-      path: "/public/5. Fire Safety Certificate.pdf",
+      path: "/5.pdf",
     },
     {
       id: "6",
       name: "Sanitory Certificate",
-      path: "/public/6. Sanitory Certificate.pdf",
+      path: "/6.pdf",
     },
     {
       id: "7",
       name: "Fee Structure (2023-2024)",
-      path: "/public/7. Fee Structure (2023-2024).pdf",
+      path: "/7.pdf",
     },
     {
       id: "8",
       name: "List of School Management & PTA Committee",
-      path: "/public/8. List of School Management & PTA Committee.pdf",
+      path: "/8.pdf",
     },
     {
       id: "9",
       name: "Recognition Certificate",
-      path: "/public/9. Recognition Certificate.pdf",
+      path: "/9.pdf",
+    },
+    {
+      id: "10",
+      name: " Annual Academic Calender (2023-2024)",
+      path: "/10.pdf",
+    },
+    {
+      id: "11",
+      name: "Land Documents",
+      path: "/11.pdf",
+    },
+    {
+      id: "12",
+      name: "Self Certicatation",
+      path: "/12.pdf",
     },
   ];
 

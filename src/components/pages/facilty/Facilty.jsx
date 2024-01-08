@@ -2,8 +2,7 @@ import React from "react";
 
 const Facility = () => {
   const transportDetails =
-    "Safety of students being shuttled in the vehicles is our primary concern. The school has buses for pickup and drop of students that are compliant with the safety and security as per the RTO norms. The details of the bus routes are available. To ensure punctuality, parents are requested to be at the bus stop 5 minutes before the stipulated time during pickup and drop.";
-
+    " Our primary concern is the safety of students who use our transport. The school has enough number of buses for pickup and drop at various locations .  To ensure punctuality, parents are requested to be at the bus stop 5 minutes before the stipulated time during pickup and drop. All buses are in compliances with the safety and security measures as per RTO norms ."
   const routerDetails = [
     {
       busNumber: "TN 14 B 9894",
@@ -102,15 +101,14 @@ const Facility = () => {
           <div className="w-[100%] lg:max-w-2xl bg-white p-6 rounded-lg shadow-md">
             <h2 className="text-2xl font-bold mb-4">Facility</h2>
             <p className="text-gray-600 mb-4">{transportDetails}</p>
+            <p className="text-center mx-0 my-2.5">The details of the bus routes are given below</p>
 
             <div style={{ overflowX: "auto" }}>
               <table className="w-full border-collapse mb-6">
                 <thead>
                   <tr>
-                    <th className="border border-gray-400 px-4 py-2">#</th>
-                    <th className="border border-gray-400 px-4 py-2">
-                      Bus Number
-                    </th>
+                    <th className="border border-gray-400 px-4 py-2">S.NO</th>
+                    
                     <th className="border border-gray-400 px-4 py-2">
                       Area Name
                     </th>
@@ -127,7 +125,7 @@ const Facility = () => {
                           colSpan="4"
                           className="border border-gray-400 px-4 py-2 font-bold"
                         >
-                          Router {index + 1}
+                          Route:{index + 1}
                         </td>
                       </tr>
                       {router.route.map((route) => (
@@ -135,9 +133,7 @@ const Facility = () => {
                           <td className="border border-gray-400 px-4 py-2">
                             {route.sno}
                           </td>
-                          <td className="border border-gray-400 px-4 py-2">
-                            {router.busNumber}
-                          </td>
+                          
                           <td className="border border-gray-400 px-4 py-2">
                             {route.area}
                           </td>

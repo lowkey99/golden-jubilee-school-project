@@ -6,55 +6,58 @@ const HouseKeeping = () => {
       id: "1",
 
       img: VEDASUBIRA,
-      name: "Smt R.SARASWATH",
+      name: "Smt R.SARASWATHI",
     },
     {
       id: "2",
 
       img: VEDASUBIRA,
-      name: "Smt P.SEETHA",
+      name: "Smt P SEETHA",
     },
-    {
-      id: "3",
-
-      img: VEDASUBIRA,
-      name: "Smt S.ADILAKSHMI",
-    },
+   
     {
       id: "4",
 
       img: VEDASUBIRA,
-      name: "Smt MOHANA",
+      name: "Smt R MOHANA",
     },
     {
       id: "5",
 
       img: VEDASUBIRA,
-      name: "Smt CHITHRA",
+      name: "Smt M CHITHRA ",
     },
     {
-      id: "6",
+      id: "5",
 
       img: VEDASUBIRA,
-      name: "Smt V.SUGANYA",
+      name: "Smt CHITHRA ",
     },
+   
     {
       id: "7",
 
       img: VEDASUBIRA,
-      name: "Smt. Muthulakshmi",
+      name: "Smt. k MUTHULAKSHMI",
     },
+  
     {
-      id: "8",
+      id: "9",
 
       img: VEDASUBIRA,
-      name: "Smt. Kanagi",
+      name: "Smt. R MUTHULAKSHMI",
     },
     {
       id: "9",
 
       img: VEDASUBIRA,
-      name: "Smt. Muthulakshmi",
+      name: "P REKHA",
+    },
+    {
+      id: "9",
+
+      img: VEDASUBIRA,
+      name: "K MALA",
     },
   ];
 
