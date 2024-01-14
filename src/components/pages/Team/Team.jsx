@@ -3,7 +3,9 @@ import AdminRole from "./AdminRole";
 import CoSchoolTeam from "./CoSchoolTeam";
 import HouseKeeping from "./HouseKeeping";
 import Leader from "./Leader";
-import TransportTeam from "./TransportTeam";
+import Office from "./Office"
+import TransportTeam from "./TransportTeam"
+
 
 const Team = () => {
   return (
@@ -12,8 +14,10 @@ const Team = () => {
       <AcademicsTeam />
       <CoSchoolTeam />
       <AdminRole />
+      < Office/>
       <HouseKeeping />
-      <TransportTeam />
+      < TransportTeam />
+      
       
     </>
   );

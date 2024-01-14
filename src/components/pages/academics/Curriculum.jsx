@@ -1,4 +1,4 @@
-import img from "../../../assets/campus/4.jpg";
+import img from "../../../assets/campus/5.jpg";
 
 const Curriculum = () => {
   return (

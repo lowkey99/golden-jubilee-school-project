@@ -27,8 +27,8 @@ const AcademicsTeam = () => {
       id: "4",
       category: "DEPARTMENT OF ENGLISH",
       img: VEDASUBIRA,
-      name: "Selvi . ALAGU LAKSHMI",
-      qualification: "B.Tech.",
+      name: "Smt. S.VALLABHI",
+      qualification: "M.A, M.Phil.",
     },
     // DEPARTMENT OF TAMIL
     {
@@ -61,19 +61,20 @@ const AcademicsTeam = () => {
     },
     // DEPARTMENT OF HINDI
     {
-      id: "9",
-      category: "DEPARTMENT OF HINDI",
-      img: VEDASUBIRA,
-      name: "Smt. G.SASIREKAHA",
-      qualification: "B. SC.,M.A., B.Ed., K.G. Trained, Hindi Pracharak",
-    },
-    {
       id: "10",
       category: "DEPARTMENT OF HINDI",
       img: VEDASUBIRA,
       name: "Smt. L.MALA",
       qualification: "M.A., B.Ed.",
     },
+    {
+      id: "9",
+      category: "DEPARTMENT OF HINDI",
+      img: VEDASUBIRA,
+      name: "Smt. G.SASIREKHA",
+      qualification: "M.A., B.Ed., K.G. Trained, Hindi Pracharak",
+    },
+  
     {
       id: "11",
       category: "DEPARTMENT OF HINDI",
@@ -91,60 +92,18 @@ const AcademicsTeam = () => {
     },
     // DEPARTMENT OF MATHEMATICS
     {
-      id: "13",
+      id: "19",
       category: "DEPARTMENT OF MATHEMATICS",
       img: VEDASUBIRA,
-      name: "Sri. A.D.RAMALINGAM",
-      qualification: "M.Sc., B.Ed., M.Phil",
-    },
-    {
-      id: "14",
-      category: "DEPARTMENT OF MATHEMATICS",
-      img: VEDASUBIRA,
-      name: "Smt. C.SANGEETHA",
-      qualification: "M.Sc., B.Ed.",
-    },
-    {
-      id: "15",
-      category: "DEPARTMENT OF MATHEMATICS",
-      img: VEDASUBIRA,
-      name: "Smt. K.R.DHAMAYANTHI ",
-      qualification: "M.Sc., B.Ed",
-    },
-    {
-      id: "16",
-      category: "DEPARTMENT OF SANSKRIT",
-      img: VEDASUBIRA,
-      name: "Smt. M.SARADHA",
-      qualification: "B.E., M.A., B.Ed.",
-    },
-    {
-      id: "17",
-      category: "DEPARTMENT OF MATHEMATICS",
-      img: VEDASUBIRA,
-      name: "Sri. A.D.RAMALINGAM",
-      qualification: "M.Sc., B.Ed., M.Phil",
+      name: "Smt. ABINAYA .G",
+      qualification: "M.Sc, M.Phil., B.Ed.",
     },
     {
       id: "18",
       category: "DEPARTMENT OF MATHEMATICS",
       img: VEDASUBIRA,
-      name: "Smt. C.SANGEETHA",
-      qualification: "M.Sc., B.Ed.",
-    },
-    {
-      id: "19",
-      category: "DEPARTMENT OF MATHEMATICS",
-      img: VEDASUBIRA,
-      name: "Smt. K.R.DHAMAYANTHI",
-      qualification: "M.Sc., B.Ed.",
-    },
-    {
-      id: "20",
-      category: "DEPARTMENT OF MATHEMATICS",
-      img: VEDASUBIRA,
-      name: "Smt. K.PRIYADHARSHINI",
-      qualification: "B.Sc., B.Ed.",
+      name: "Smt. RENUGA .K",
+      qualification: "M.Sc, M.Ed.",
     },
     {
       id: "21",
@@ -153,6 +112,24 @@ const AcademicsTeam = () => {
       name: "Smt. R. NIMITA KRISHNAN",
       qualification: "B.Sc., B.Ed.",
     },
+    {
+      id: "15",
+      category: "DEPARTMENT OF MATHEMATICS",
+      img: VEDASUBIRA,
+      name: "Smt. K.R.DHAMAYANTHI ",
+      qualification: "M.Sc., B.Ed",
+    },
+ 
+    
+   
+    {
+      id: "20",
+      category: "DEPARTMENT OF MATHEMATICS",
+      img: VEDASUBIRA,
+      name: "Smt. K.PRIYADHARSHINI",
+      qualification: "B.Sc., B.Ed.",
+    },
+   
     // DEPARTMENT OF SCIENCE
     {
       id: "29",
@@ -169,19 +146,20 @@ const AcademicsTeam = () => {
       qualification: "M.Sc., B.Ed.",
     },
     {
+      id: "32",
+      category: "DEPARTMENT OF SCIENCE",
+      img: VEDASUBIRA,
+      name: "Smt.P SIDDEESWARI",
+      qualification: "M.Sc., B.Ed.",
+    },
+    {
       id: "31",
       category: "DEPARTMENT OF SCIENCE",
       img: VEDASUBIRA,
       name: "Kum. R.SOUNDARYA",
       qualification: "M.Sc., B.Ed.",
     },
-    {
-      id: "32",
-      category: "DEPARTMENT OF SCIENCE",
-      img: VEDASUBIRA,
-      name: "Smt. Sayee Lakshmi",
-      qualification: "M.Sc., B.Ed.",
-    },
+  
     // DEPARTMENT OF SOCIAL STUDIES
     {
       id: "33",
@@ -206,19 +184,21 @@ const AcademicsTeam = () => {
     },
     // DEPARTMENT OF COMPUTER SCIENCE
     {
-      id: "36",
-      category: "DEPARTMENT OF COMPUTER SCIENCE",
-      img: VEDASUBIRA,
-      name: "Sri. K.NARAYANAN",
-      qualification: "B.Com., MCA., PGDSE., DISM., DPM",
-    },
-    {
       id: "37",
       category: "DEPARTMENT OF COMPUTER SCIENCE",
       img: VEDASUBIRA,
       name: "Smt. R.JISHA",
       qualification: "M.C.A., M.Phil.",
     },
+    {
+      id: "36",
+      category: "DEPARTMENT OF COMPUTER SCIENCE",
+      img: VEDASUBIRA,
+      name: "Smt. NANDHINI .K",
+      qualification: "B.E.",
+    },
+  
+   
     // KINDER GARTEN
     {
       id: "38",
@@ -238,14 +218,14 @@ const AcademicsTeam = () => {
       id: "40",
       category: "KINDER GARTEN",
       img: VEDASUBIRA,
-      name: "Smt . V. Girija",
-      qualification: "B.A(English) , D.T.Ed, Diploma in Montessori",
+      name: "Smt . V. GIRIJA ",
+      qualification: "B.Tech, B.A",
     },
     {
       id: "41",
       category: "KINDER GARTEN",
       img: VEDASUBIRA,
-      name: "Smt.Prabavathi.R",
+      name: "Smt R. PRABAVATHI",
       qualification: "B.Tech",
     },
   ];

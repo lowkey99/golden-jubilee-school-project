@@ -20,8 +20,8 @@ const CoSchoolTeam = () => {
         id: "3",
         category: "DEPARTMENT OF PHYSICAL EDUCATION & YOGA",
         img: VEDASUBIRA,
-        name: "Sri. K.SURESH",
-        qualification: "B. P.Ed.",
+        name: "Sri. S.AYYANAR",
+        qualification: "B.Sc,B.P.Ed",
         },
         {
         id: "4",
@@ -29,6 +29,12 @@ const CoSchoolTeam = () => {
         img: VEDASUBIRA,
         name: "Smt. R.SRIPRIYA",
         qualification: "M.A.",
+        },
+       { id: "4",
+        category: "DEPARTMENT OF PHYSICAL EDUCATION & YOGA",
+        img: VEDASUBIRA,
+        name: "Sri. B.SARAVANAN",
+        qualification: "M.Sc, M.A Yoga",
         },
         {
         id: "5",
@@ -43,6 +49,20 @@ const CoSchoolTeam = () => {
         img: VEDASUBIRA,
         name: "Smt. K.MONISHA",
         qualification: "M.A., B.Ed. Librarian",
+        },
+        {
+        id: "7",
+        category: "DEPARTMENT OF ARTS & CRAFT",
+        img: VEDASUBIRA,
+        name: "Sri. K. NAGARAJAN",
+        qualification: "M.A Music, M.Phil, DMT. Dip.Music",
+        },
+        {
+        id: "8",
+        category: "DEPARTMENT OF ARTS & CRAFT",
+        img: VEDASUBIRA,
+        name: "Sri. K.P. KARVARNAN",
+        qualification: "Dip. Bharatanatiyam",
         },
         ];
 

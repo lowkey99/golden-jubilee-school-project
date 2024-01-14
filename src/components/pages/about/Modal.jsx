@@ -1,3 +1,5 @@
+
+
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { GrClose } from "react-icons/gr";
@@ -8,6 +10,7 @@ export default function ModalUIAbout({
   detail1,
   detail2,
   detail3,
+  detail4,
 }) {
   return (
     <>
@@ -55,6 +58,8 @@ export default function ModalUIAbout({
                         <br />
                         <br />
                         <p className="text-base text-gray-500">{detail3}</p>
+                        <br />
+                        <p className="text-base text-gray-500">{detail4}</p>
                       </div>
                     </div>
                   </div>

@@ -6,8 +6,15 @@ const AdminRole = () => {
       id: "1",
       category: "ADMINISTRATIVE TEAM",
       img: VEDASUBIRA,
-      name: "Smt. D.DEVI   M.Com, M.F.M., (M.B.A",
-      qualification: "Accountant and Administration co-ordindinator",
+      name: "Smt. D.DEVI   M.Com, M.F.M., (M.B.A)",
+      qualification: "Accountant and Admin co-ordindinator",
+    },
+    {
+      id: "1",
+      category: "ADMINISTRATIVE TEAM",
+      img: VEDASUBIRA,
+      name: "Sri.  NARAYANAN",
+      qualification: "B.Com., MCA., PGDSE.,DISM.,DPM",
     },
     {
       id: "2",
@@ -27,30 +34,10 @@ const AdminRole = () => {
       id: "4",
       category: "ADMINISTRATIVE TEAM",
       img: VEDASUBIRA,
-      name: "Sri. M.K. KRISHNAMURTHY",
-      qualification: "Office Assistant",
+      name: "Smt VIJAYALAKSHMI .R",
+      qualification: "B.Com, Front office",
     },
-    {
-      id: "5",
-      category: "ADMINISTRATIVE TEAM",
-      img: VEDASUBIRA,
-      name: "Smt. R.KRISHNAVENI",
-      qualification: "Office Assistant",
-    },
-    {
-      id: "6",
-      category: "ADMINISTRATIVE TEAM",
-      img: VEDASUBIRA,
-      name: "Smt RAJAPRIY",
-      qualification: "Office Assistant",
-    },
-    {
-      id: "7",
-      category: "ADMINISTRATIVE TEAM",
-      img: VEDASUBIRA,
-      name: "Sri. S.RADHAKRISHNAN",
-      qualification: "Office Assistant",
-    },
+    
   ];
 
   const categories = [...new Set(AdminRoleData.map((data) => data.category))];

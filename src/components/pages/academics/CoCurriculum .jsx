@@ -11,7 +11,7 @@ const CoCurriculum = () => {
           <h4 className="text-xl font-semibold mb-3 text-blue-500">Physical Education</h4>
           <p> Band, Drill & P.T</p>
           <p>
-            Games & Sports -Volleyball, , Tennikoit, Kho-Kho, Kabaddi, Throw
+            Sports & Games  -Volleyball, , Tennikoit, Kho-Kho, Kabaddi, Throw
             ball, Chess and Carrom
           </p>
         </div>

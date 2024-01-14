@@ -185,25 +185,7 @@ const RulesAndReg = () => {
                 11
               </div>
             </div>
-            <div className="w-px h-full pb-14 bg-gray-300" />
-          </div>
-          <div className="">
-            <p className="text-sm text-gray-700">
-              English should be spoken in the school premises to acquire better
-              fluency and knowledge of the language. Parents are requested to
-              encourage their children to speak English at home also.
-            </p>
-          </div>
-        </div>
-        <div className="flex">
-          <div className="flex flex-col items-center mr-6">
-            <div className="w-px h-10 opacity-0 sm:h-full" />
-            <div>
-              <div className="flex items-center justify-center w-8 h-8 text-xs font-medium border rounded-full">
-                12
-              </div>
-            </div>
-            <div className="w-px h-full bg-gray-300" />
+            
           </div>
           <div className="">
             <p className="text-sm text-gray-700">
@@ -211,6 +193,7 @@ const RulesAndReg = () => {
             </p>
           </div>
         </div>
+       
       </div>
     </div>
   );

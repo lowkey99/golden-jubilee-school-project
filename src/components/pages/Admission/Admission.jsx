@@ -14,11 +14,10 @@ const Admission = () => {
               <h3 className="text-xl font-semibold">THE ADMISSION PROCEDURE</h3>
               <ul className="list-outside list-disc">
                 <li className="my-4">
-                  Every parent desirous of seeking admission can walk into our
-                  admissions office and fill in the enquiry form.
+                Every parent desirous of seeking admission can walk into our office and fill in the enquiry form.
                 </li>
                 <li>
-                  For further details kindly contact the school office +91
+                  For further details kindly contact the school HelpLine <br></br> +91
                   9498038238, 9445239985
                 </li>
               </ul>
@@ -59,7 +58,7 @@ const Admission = () => {
                     </tr>
                     <tr>
                       <th className="border">4</th>
-                      <td className="border">Aadhar card no.</td>
+                      <td className="border">Copy Aadhar card no.</td>
                     </tr>
                     <tr>
                       <th className="border">6</th>
@@ -86,7 +85,7 @@ const Admission = () => {
               </thead>
               <tbody>
                 <tr>
-                  <td className="border">PRE KG</td>
+                  <td className="border">Balavatika - 1</td>
                   <td className="border">2019 - Dec to 2020 - Nov</td>
                 </tr>
                 <tr>
@@ -125,8 +124,8 @@ const Admission = () => {
                 </tr>
                 <tr className="border">
                   <th className="border">APRIL</th>
-                  <th className="border">AUGUST</th>
-                  <th className="border">DEC </th>
+                  <th className="border">JULY</th>
+                  <th className="border">NOVEMBER </th>
                 </tr>
               </thead>
               <tbody>
