@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <address>
                 249A, Kamakoti Nagar 1st Main Road, Pallikaranai, Chennai 100.<br></br>
-               <a href="tel:+914448603336"> Ph: +91 44 4860 3336</a><br/>
+               <a href="tel:+919498038238"> Ph: +91 94980 38238</a><br/>
                <a href="tel:+914448603337"> Ph: +91 44 4860 3337</a>
                
               </address>
