@@ -3,9 +3,11 @@ import Logo from "../../assets/down.png";
 
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+  const name = " Metawebix";
   return (
     <div className="bg-[#121212]">
-      <div className="px-4 py-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
+      <div className="px-4 py-10 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-white text-center sm:text-start footermark">
           <div className="lg:col-span-2 logomark">
             <Link to="/" className="">
@@ -28,6 +30,17 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <p className="text-center text-white mt-10  ">
+        Copyright &copy; {year}, All Right Reserved By
+                      <a
+                        href="https://www.metawebix.com/"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="text-sky-600"
+                      >
+                        {name}
+                      </a>
+          </p>
       </div>
     </div>
   );
